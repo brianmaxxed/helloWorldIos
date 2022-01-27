@@ -20,6 +20,3 @@ workflows:
           include: true
           source: true
       cancel_previous_builds: false
-    scripts:
-      scripts:
-        - echo 'Post-publish script'
