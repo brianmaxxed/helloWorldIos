@@ -21,12 +21,5 @@ workflows:
           source: true
       cancel_previous_builds: false
     scripts:
-      - ...
-    artifacts:
-      - build/**/outputs/bundle/**/*.aab
-    publishing:
-      email:
-        recipients:
-          - name@example.com
       scripts:
         - echo 'Post-publish script'
