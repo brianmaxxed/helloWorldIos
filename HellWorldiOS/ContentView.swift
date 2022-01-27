@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, World!")
             .padding()
+        
+        Button("Hello World!") {
+            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+        }
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
